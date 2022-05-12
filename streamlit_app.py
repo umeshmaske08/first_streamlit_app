@@ -18,7 +18,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 streamlit.header('Fruitvice Fruit Advice!')
-fruit_choice = streamlit.txt_input('what fruit would you like information about?','kiwi')
+fruit_choice = streamlit.txt_input('what fruit would you like information about?', 'kiwi')
 streamlit.write('The user entered',fruit_choice)
 
 import requests
